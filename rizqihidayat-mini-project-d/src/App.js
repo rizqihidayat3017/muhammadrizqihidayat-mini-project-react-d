@@ -1,12 +1,14 @@
 import "./App.css";
+import First from "./components/First.jsx";
 
 function App() {
   return (
-    <div className="Parentbox">
-      <div>
-        <Navbar />
+    <div>
+      <Navbar />
+      <div className="Parentbox">
         <Image />
         <DeskripsiInfo name="Front End Developer." />
+        <First />
       </div>
     </div>
   );
@@ -14,57 +16,60 @@ function App() {
 
 function Navbar() {
   return (
-    <nav className="border-gray-200 px-4 py-9 dark:bg-gray-800 ">
-      <div className="flex justify-between items-center">
-        <a className="flex items-center">
-          <img
-            src="/Image/LOGO.png"
-            className="mr-3 h-6 sm:h-12"
-            alt="LightSoft Logo"
-          />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-            LightSoft
-          </span>
-        </a>
-        <div>
-          <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-xl md:font-medium">
-            <li>
-              <a
-                href="#"
-                className="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
-                aria-current="page"
-              >
-                Home
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-              >
-                Project
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-              >
-                Organisasi
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-              >
-                Kepanitiaan
-              </a>
-            </li>
-          </ul>
+    <section className="w-full px-8 text-gray-700 bg-secondary">
+      <div className="container flex flex-col flex-wrap items-center justify-between py-5 mx-auto md:flex-row max-w-7xl">
+        <div className="relative flex flex-col md:flex-row">
+          <a
+            href="#_"
+            className="flex items-center mb-5 font-medium text-gray-900 lg:w-auto lg:items-center lg:justify-center md:mb-0"
+          >
+            <span className="mx-auto text-xl font-black leading-none text-white select-none">
+              Portofolio<span className="text-white">.</span>
+            </span>
+          </a>
+          <nav className="flex flex-wrap items-center mb-5 text-base md:mb-0 md:pl-8 md:ml-8 md:border-l md:border-gray-200">
+            <a
+              href="#_"
+              className="mr-5 font-medium leading-6 text-white hover:text-gray-900"
+            >
+              Home
+            </a>
+            <a
+              href="#_"
+              className="mr-5 font-medium leading-6 text-white hover:text-gray-900"
+            >
+              Project
+            </a>
+            <a
+              href="#_"
+              className="mr-5 font-medium leading-6 text-white hover:text-gray-900"
+            >
+              Organisasi
+            </a>
+            <a
+              href="#_"
+              className="mr-5 font-medium leading-6 text-white hover:text-gray-900"
+            >
+              Kepanitiaan
+            </a>
+          </nav>
+        </div>
+        <div className="inline-flex items-center ml-5 space-x-6 lg:justify-end">
+          <a
+            href="#"
+            className="text-base font-medium leading-6 text-white whitespace-no-wrap transition duration-150 ease-in-out hover:text-gray-900"
+          >
+            Sign in
+          </a>
+          <a
+            href="#"
+            className="inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 text-white whitespace-no-wrap bg-primary border border-transparent rounded-md shadow-sm hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600"
+          >
+            Sign up
+          </a>
         </div>
       </div>
-    </nav>
+    </section>
   );
 }
 
@@ -77,7 +82,7 @@ function Image() {
 }
 
 function DeskripsiInfo(props) {
-  const judul = "Hello, My Name Is Rizqi Hidayat";
+  const judul = "Hello, My Name Is Rizqi Hidayat.";
   const { name } = props;
   return (
     <div>
@@ -88,9 +93,23 @@ function DeskripsiInfo(props) {
           I am a Front End Developer with more than 1 years of experience. I use
           programming language like HTML, Java, Reactjs, Python, and Dart.
         </p>
+        <a
+          onClick={SendEmail}
+          className="contact"
+          href="mailto:mrizqihidayat3229@gmail.com"
+        >
+          Contact Me
+        </a>
+        <a className="contact ml-4" href="/image/RizqiHidayat_CV.pdf">
+          Download CV
+        </a>
       </div>
     </div>
   );
+}
+
+function SendEmail(props) {
+  console.log("mengirimkan email");
 }
 
 export default App;
