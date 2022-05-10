@@ -6,7 +6,7 @@ function App() {
       <div>
         <Navbar />
         <Image />
-        <DeskripsiInfo name="Muhammad Rizqi Hidayat" />
+        <DeskripsiInfo name="Front End Developer." />
       </div>
     </div>
   );
@@ -14,30 +14,27 @@ function App() {
 
 function Navbar() {
   return (
-    <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
-      <div className="container flex flex-wrap justify-between items-center mx-auto">
+    <nav className="border-gray-200 px-4 py-9 dark:bg-gray-800 ">
+      <div className="flex justify-between items-center">
         <a className="flex items-center">
           <img
             src="/Image/LOGO.png"
-            className="mr-3 h-6 sm:h-9"
+            className="mr-3 h-6 sm:h-12"
             alt="LightSoft Logo"
           />
-          <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
+          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
             LightSoft
           </span>
         </a>
-        <div
-          className="hidden justify-between items-center w-full md:flex md:w-auto md:order-1"
-          id="mobile-menu-2"
-        >
-          <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+        <div>
+          <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-xl md:font-medium">
             <li>
               <a
                 href="#"
                 className="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
                 aria-current="page"
               >
-                About
+                Home
               </a>
             </li>
             <li>
@@ -45,7 +42,7 @@ function Navbar() {
                 href="#"
                 className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
-                Portofolio
+                Project
               </a>
             </li>
             <li>
@@ -53,7 +50,7 @@ function Navbar() {
                 href="#"
                 className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
-                Testimoni
+                Organisasi
               </a>
             </li>
             <li>
@@ -61,7 +58,7 @@ function Navbar() {
                 href="#"
                 className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
-                Contact
+                Kepanitiaan
               </a>
             </li>
           </ul>
@@ -80,7 +77,7 @@ function Image() {
 }
 
 function DeskripsiInfo(props) {
-  const judul = "Description";
+  const judul = "Hello, My Name Is Rizqi Hidayat";
   const { name } = props;
   return (
     <div>
@@ -88,9 +85,8 @@ function DeskripsiInfo(props) {
         <h1 className="Cate">{judul}</h1>
         <p className="Title">{name}</p>
         <p className="Info">
-          Mahasiswa Progam Studi Informatika, Fakultas Ilmu Komputer,
-          Universitas Jember. Selalu berkemauan untuk menjadi pribadi yang lebih
-          baik, disiplin waktu, dan bertanggung jawab.
+          I am a Front End Developer with more than 1 years of experience. I use
+          programming language like HTML, Java, Reactjs, Python, and Dart.
         </p>
       </div>
     </div>

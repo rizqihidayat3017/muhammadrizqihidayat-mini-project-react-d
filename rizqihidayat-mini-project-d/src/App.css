@@ -33,10 +33,13 @@
 .Definisi .Info {
   line-height: 1.8;
   color: rgb(18, 11, 49);
-  text-align: justify;
-  font-size: 15px;
+  text-align: left;
+  font-size: 18px;
 }
 
 .Definisi .Title {
   margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
 }
