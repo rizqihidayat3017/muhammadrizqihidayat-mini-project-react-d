@@ -34,13 +34,13 @@ function Navbar() {
                 href="#_"
                 className="mr-5 font-medium leading-6 text-white hover:text-indigo-700"
               >
-                Kepanitiaan
+                Portofolio
               </a>
               <a
                 href="#_"
                 className="mr-5 font-medium leading-6 text-white hover:text-indigo-700"
               >
-                Portofolio
+                Kepanitiaan
               </a>
             </nav>
           </div>

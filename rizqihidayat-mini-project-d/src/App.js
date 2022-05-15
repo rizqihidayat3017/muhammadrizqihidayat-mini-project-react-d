@@ -5,15 +5,21 @@ import Kepanitiaan from "./components/Kepanitiaan";
 import Organisasi from "./components/Organisasi";
 import Navbar from "./components/Navbar";
 import Footer from "./components/footer";
+import Documentation from "./components/Documentation";
+import Address from "./components/Address";
+import Skill from "./components/Skill";
 
 function App() {
   return (
     <div>
       <Navbar />
       <First />
+      <Skill />
       <Organisasi />
-      <Kepanitiaan />
       <Project />
+      <Kepanitiaan />
+      <Documentation />
+      <Address />
       <Footer />
     </div>
   );
