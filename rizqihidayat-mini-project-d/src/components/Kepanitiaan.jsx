@@ -12,15 +12,15 @@ function Kepanitiaan() {
       <section className="bg-white">
         <div className="container max-w-6xl mx-auto">
           <h2
-            className="text-4xl font-bold tracking-tight text-center mt-8"
+            className="text-4xl font-bold tracking-tight text-center mt-14"
             data-aos="fade-up"
           >
             Pengalaman Kepanitiaan
           </h2>
-          <div className="grid grid-cols-4 gap-8 mt-10 sm:grid-cols-8 lg:grid-cols-12 sm:px-8 xl:px-0">
+          <div className="grid grid-cols-4 gap-8 mt-14 sm:grid-cols-8 lg:grid-cols-12 sm:px-8 xl:px-0">
             <div
               className="relative flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 overflow-hidden bg-gray-100 sm:rounded-xl"
-              data-aos="fade-down-right"
+              data-aos="zoom-in-up"
             >
               <div className="p-3 text-white bg-primary rounded-full">
                 <img className="h-8 w-8" src="/image/bitif.png" alt="" />
@@ -58,7 +58,7 @@ function Kepanitiaan() {
             </div>
             <div
               className="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl"
-              data-aos="fade-down-left"
+              data-aos="zoom-in-up"
             >
               <div className="p-3 text-white bg-primary rounded-full">
                 <img className="h-8 w-8" src="/image/Icom.png" alt="" />
@@ -76,7 +76,7 @@ function Kepanitiaan() {
             </div>
             <div
               className="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl"
-              data-aos="fade-down-right"
+              data-aos="zoom-in-up"
             >
               <div className="p-3 text-white bg-primary rounded-full">
                 <img className="h-8 w-8" src="/image/IO.png" alt="" />
@@ -111,7 +111,7 @@ function Kepanitiaan() {
             </div>
             <div
               className="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl"
-              data-aos="fade-down-left"
+              data-aos="zoom-in-up"
             >
               <div className="p-3 text-white bg-primary rounded-full">
                 <img className="h-8 w-8" src="/image/HMIFLOGO.png" alt="" />
