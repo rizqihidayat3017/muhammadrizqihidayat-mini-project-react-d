@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Documentation() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  });
   return (
     <div>
-      <section className="text-gray-400 bg-three body-font mt-20">
+      <section
+        className="text-gray-400 bg-three body-font mt-20"
+        data-aos="zoom-in-up"
+      >
         <div className="container px-5 py-24 mx-auto flex flex-wrap">
           <div className="flex w-full mb-20 flex-wrap">
             <h1 className="sm:text-3xl text-2xl font-medium title-font text-black lg:w-1/3 lg:mb-0 mb-4">

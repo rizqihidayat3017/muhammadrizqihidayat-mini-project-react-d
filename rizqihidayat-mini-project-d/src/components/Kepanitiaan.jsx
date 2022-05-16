@@ -1,15 +1,27 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Kepanitiaan() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  });
   return (
     <div>
       <section className="bg-white">
         <div className="container max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold tracking-tight text-center mt-8">
+          <h2
+            className="text-4xl font-bold tracking-tight text-center mt-8"
+            data-aos="fade-up"
+          >
             Pengalaman Kepanitiaan
           </h2>
           <div className="grid grid-cols-4 gap-8 mt-10 sm:grid-cols-8 lg:grid-cols-12 sm:px-8 xl:px-0">
-            <div className="relative flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 overflow-hidden bg-gray-100 sm:rounded-xl">
+            <div
+              className="relative flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 overflow-hidden bg-gray-100 sm:rounded-xl"
+              data-aos="fade-down-right"
+            >
               <div className="p-3 text-white bg-primary rounded-full">
                 <img className="h-8 w-8" src="/image/bitif.png" alt="" />
               </div>
@@ -26,7 +38,10 @@ function Kepanitiaan() {
                 Master of Ceremony dan Sie-Perlengkapan
               </p>
             </div>
-            <div className="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
+            <div
+              className="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl"
+              data-aos="zoom-in-up"
+            >
               <div className="p-3 text-white bg-primary rounded-full">
                 <img className="h-8 w-8" src="/image/bitif.png" alt="" />
               </div>
@@ -41,7 +56,10 @@ function Kepanitiaan() {
               </p>
               <p className="text-base text-center">Ketua Panitia</p>
             </div>
-            <div className="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
+            <div
+              className="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl"
+              data-aos="fade-down-left"
+            >
               <div className="p-3 text-white bg-primary rounded-full">
                 <img className="h-8 w-8" src="/image/Icom.png" alt="" />
               </div>
@@ -56,20 +74,26 @@ function Kepanitiaan() {
               </p>
               <p className="text-base text-center">Sie-Acara</p>
             </div>
-            <div className="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
+            <div
+              className="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl"
+              data-aos="fade-down-right"
+            >
               <div className="p-3 text-white bg-primary rounded-full">
                 <img className="h-8 w-8" src="/image/IO.png" alt="" />
               </div>
               <h4 className="text-xl font-medium text-gray-700">I/O (2020)</h4>
               <p className="text-base text-justify text-gray-500">
                 Informatics Olympiad 2022 merupakan sebuah ajang kompetisi ilmu
-                pengetahuan dalam bidang teknologi informasi tingkat nasional. Kegiatan ini
-                diharapkan mampu mencetak generasi muda yang kompetitif,
-                kreatif, dan bermutu.
+                pengetahuan dalam bidang teknologi informasi tingkat nasional.
+                Kegiatan ini diharapkan mampu mencetak generasi muda yang
+                kompetitif, kreatif, dan bermutu.
               </p>
               <p className="text-base text-center">Sie- Perlengkapan</p>
             </div>
-            <div className="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
+            <div
+              className="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl"
+              data-aos="zoom-in-up"
+            >
               <div className="p-3 text-white bg-primary rounded-full">
                 <img className="h-8 w-8" src="/image/IT4.png" alt="" />
               </div>
@@ -85,7 +109,10 @@ function Kepanitiaan() {
                 Master Of Ceremony dan Sie- Perlengkapan
               </p>
             </div>
-            <div className="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
+            <div
+              className="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl"
+              data-aos="fade-down-left"
+            >
               <div className="p-3 text-white bg-primary rounded-full">
                 <img className="h-8 w-8" src="/image/HMIFLOGO.png" alt="" />
               </div>
@@ -101,7 +128,10 @@ function Kepanitiaan() {
               </p>
               <p className="text-base text-center">Koordinator Acara</p>
             </div>
-            <div className="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
+            <div
+              className="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl"
+              data-aos="zoom-in-up"
+            >
               <div className="p-3 text-white bg-primary rounded-full">
                 <img className="h-8 w-8" src="/image/HMIFLOGO.png" alt="" />
               </div>
@@ -116,7 +146,10 @@ function Kepanitiaan() {
               </p>
               <p className="text-base text-center">Sie-Acara</p>
             </div>
-            <div className="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
+            <div
+              className="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl"
+              data-aos="zoom-in-up"
+            >
               <div className="p-3 text-white bg-primary rounded-full">
                 <img className="h-8 w-8" src="/image/HMIFLOGO.png" alt="" />
               </div>

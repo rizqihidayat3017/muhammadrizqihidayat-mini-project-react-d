@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function First() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  });
   return (
     <div>
       <section className="w-full px-8 text-gray-700 bg-white">
         <div className="container flex flex-col flex-wrap items-center justify-between mx-auto md:flex-row max-w-7xl"></div>
       </section>
-      <section className="px-2 py-20 bg-white md:px-0">
+      <section className="px-2 py-20 bg-white md:px-0" data-aos="zoom-in-up">
         <div className="container items-center max-w-6xl px-8 mx-auto xl:px-5">
           <div className="flex flex-wrap items-center sm:-mx-3">
             <div className="w-full md:w-1/2 md:px-3">
@@ -56,7 +62,7 @@ function First() {
             <div className="w-full md:w-1/2">
               <div className="w-full h-96 overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                 <img
-                  className="object-cover w-full m-auto h-full "
+                  className="object-cover w-full m-auto h-full"
                   src="/image/dayat.JPG"
                 />
               </div>
