@@ -1,25 +1,26 @@
 import "./App.css";
-import First from "./components/First.jsx";
-import Project from "./components/Project";
-import Kepanitiaan from "./components/Kepanitiaan";
-import Organisasi from "./components/Organisasi";
 import Navbar from "./components/Navbar";
 import Footer from "./components/footer";
-import Documentation from "./components/Documentation";
-import Address from "./components/Address";
-import Skill from "./components/Skill";
+import Home from "./pages/Home";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Organisasi from "./components/Organisasi";
+import Project from "./components/Project";
+import Pagenotfound from "./components/Pagenotfound";
+import Dokumentasi from "./pages/Dokumentasi";
 
 function App() {
   return (
     <div>
       <Navbar />
-      <First />
-      <Skill />
-      <Organisasi />
-      <Project />
-      <Kepanitiaan />
-      <Documentation />
-      <Address />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/organisasi" element={<Organisasi />} />
+          <Route path="/project" element={<Project />} />
+          <Route path="/kepanitiaan" element={<Dokumentasi />} />
+          <Route path="*" element={<Pagenotfound />} />
+        </Routes>
+      </BrowserRouter>
       <Footer />
     </div>
   );

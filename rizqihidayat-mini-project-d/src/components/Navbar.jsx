@@ -19,25 +19,25 @@ function Navbar() {
             </a>
             <nav className="flex flex-wrap items-center mb-5 text-base md:mb-0 md:pl-8 md:ml-8 md:border-l md:border-gray-200">
               <a
-                href="#_"
+                href="/"
                 className="mr-5 font-medium leading-6 text-white hover:text-indigo-700"
               >
                 Beranda
               </a>
               <a
-                href="#_"
+                href="/organisasi"
                 className="mr-5 font-medium leading-6 text-white hover:text-indigo-700"
               >
                 Organisasi
               </a>
               <a
-                href="#_"
+                href="/project"
                 className="mr-5 font-medium leading-6 text-white hover:text-indigo-700"
               >
                 Portofolio
               </a>
               <a
-                href="#_"
+                href="/kepanitiaan"
                 className="mr-5 font-medium leading-6 text-white hover:text-indigo-700"
               >
                 Kepanitiaan
@@ -46,7 +46,7 @@ function Navbar() {
           </div>
           <div className="inline-flex items-center ml-5 space-x-6 lg:justify-end">
             <a
-              href="#"
+              href="#_"
               className="inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 text-white whitespace-no-wrap bg-primary border border-transparent rounded-md shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600"
             >
               Masuk

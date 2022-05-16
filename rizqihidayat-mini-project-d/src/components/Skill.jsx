@@ -12,100 +12,60 @@ function Skill() {
               src="/image/skill.svg"
             />
           </div>
-          <div>
-            <div className="flex justify-between mb-1">
-              <span className="text-base font-medium text-black dark:text-primary">
-                HTML/CSS
-              </span>
-              <span className="text-sm font-medium text-black dark:text-primary">
-                80%
-              </span>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 m-auto">
+            <div className=" w-80 rounded-xl shadow-md p-5 border border-gray-50 bg-white">
+              <p className="text-gray-700 text-lg">HTML + CSS</p>
+              <div class="relative w-full bg-gray-200 rounded my-2">
+                <div className="absolute top-0 h-4 rounded shim-blue w-full"></div>
+              </div>
+              <p className="text-gray-500 text-xs mt-4">
+                <img src="/image/logos/html-css.png" alt="icons" className="h-6" />
+              </p>
             </div>
-            <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-              <div
-                className="bg-blue-600 h-2.5 rounded-full"
-                style={{ width: "80%" }}
-              />
+            <div className=" w-80 rounded-xl shadow-md p-5 border border-gray-50 bg-white">
+              <p className="text-gray-700 text-lg">Javascript</p>
+              <div class="relative w-full bg-gray-200 rounded my-2">
+                <div className="absolute top-0 h-4 rounded shim-blue w-full"></div>
+              </div>
+              <p className="text-gray-500 text-xs mt-4">
+                <img src="/image/logos/js.png" alt="icons" className="h-6" />
+              </p>
             </div>
-          </div>
-          <div>
-            <div className="flex justify-between mb-1">
-              <span className="text-base font-medium text-black dark:text-primary">
-                Dart Flutter
-              </span>
-              <span className="text-sm font-medium text-black dark:text-primary">
-                70%
-              </span>
+            <div className=" w-80 rounded-xl shadow-md p-5 border border-gray-50 bg-white">
+              <p className="text-gray-700 text-lg">Dart/Flutter</p>
+              <div class="relative w-full bg-gray-200 rounded my-2">
+                <div className="absolute top-0 h-4 rounded shim-blue w-full"></div>
+              </div>
+              <p className="text-gray-500 text-xs mt-4">
+                <img src="/image/logos/dartflutter.png" alt="icons" className="h-6" />
+              </p>
             </div>
-            <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-              <div
-                className="bg-blue-600 h-2.5 rounded-full"
-                style={{ width: "70%" }}
-              />
+            <div className=" w-80 rounded-xl shadow-md p-5 border border-gray-50 bg-white">
+              <p className="text-gray-700 text-lg">Reactjs</p>
+              <div class="relative w-full bg-gray-200 rounded my-2">
+                <div className="absolute top-0 h-4 rounded shim-blue w-full"></div>
+              </div>
+              <p className="text-gray-500 text-xs mt-4">
+                <img src="/image/logos/reactjs.png" alt="icons" className="h-6" />
+              </p>
             </div>
-          </div>
-          <div>
-            <div className="flex justify-between mb-1">
-              <span className="text-base font-medium text-black dark:text-primary">
-                Java
-              </span>
-              <span className="text-sm font-medium text-black dark:text-primary">
-                75%
-              </span>
+            <div className=" w-80 rounded-xl shadow-md p-5 border border-gray-50 bg-white">
+              <p className="text-gray-700 text-lg">Python</p>
+              <div class="relative w-full bg-gray-200 rounded my-2">
+                <div className="absolute top-0 h-4 rounded shim-blue w-full"></div>
+              </div>
+              <p className="text-gray-500 text-xs mt-4">
+                <img src="/image/logos/python.png" alt="icons" className="h-6" />
+              </p>
             </div>
-            <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-              <div
-                className="bg-blue-600 h-2.5 rounded-full"
-                style={{ width: "75%" }}
-              />
-            </div>
-          </div>
-          <div>
-            <div className="flex justify-between mb-1">
-              <span className="text-base font-medium text-black dark:text-primary">
-                Figma
-              </span>
-              <span className="text-sm font-medium text-black dark:text-primary">
-                80%
-              </span>
-            </div>
-            <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-              <div
-                className="bg-blue-600 h-2.5 rounded-full"
-                style={{ width: "85%" }}
-              />
-            </div>
-          </div>
-          <div>
-            <div className="flex justify-between mb-1">
-              <span className="text-base font-medium text-black dark:text-primary">
-                Python
-              </span>
-              <span className="text-sm font-medium text-black dark:text-primary">
-                80%
-              </span>
-            </div>
-            <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-              <div
-                className="bg-blue-600 h-2.5 rounded-full"
-                style={{ width: "80%" }}
-              />
-            </div>
-          </div>
-          <div>
-            <div className="flex justify-between mb-1">
-              <span className="text-base font-medium text-black dark:text-primary">
-                React
-              </span>
-              <span className="text-sm font-medium text-black dark:text-primary">
-                50%
-              </span>
-            </div>
-            <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-              <div
-                className="bg-blue-600 h-2.5 rounded-full"
-                style={{ width: "50%" }}
-              />
+            <div className=" w-80 rounded-xl shadow-md p-5 border border-gray-50 bg-white">
+              <p className="text-gray-700 text-lg">Figma</p>
+              <div class="relative w-full bg-gray-200 rounded my-2">
+                <div className="absolute top-0 h-4 rounded shim-blue w-full"></div>
+              </div>
+              <p className="text-gray-500 text-xs mt-4">
+                <img src="/image/logos/figma.png" alt="icons" className="h-6" />
+              </p>
             </div>
           </div>
         </div>
