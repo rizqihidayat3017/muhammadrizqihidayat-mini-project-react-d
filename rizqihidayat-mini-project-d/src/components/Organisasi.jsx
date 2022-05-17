@@ -11,19 +11,20 @@ function Organisasi() {
     <div>
       {/* Section 1 */}
       <section className="bg-white">
-        <div className="w-full px-5 py-6 mx-auto space-y-5 sm:py-8 md:py-12 sm:space-y-8 md:space-y-16 max-w-7xl">
+        <div className="px-5 py-6 mx-auto space-y-5 sm:py-8 md:py-12 sm:space-y-8 md:space-y-16 max-w-7xl">
           <div
             className="flex flex-col items-center sm:px-5 md:flex-row"
+            data-aos="fade-up"
           >
-            <div className="w-full md:w-1/2">
+            <div className="md:w-1/2">
               <a href="#_" className="block">
                 <img
-                  className="object-contain w-full h-full rounded-lg max-h-64 sm:max-h-96"
+                  className="object-contain h-full rounded-lg max-h-64 sm:max-h-96"
                   src="/image/HMIFLOGO.png"
                 />
               </a>
             </div>
-            <div className="flex flex-col items-start justify-center w-full h-full py-6 mb-6 md:mb-0 md:w-1/2">
+            <div className="flex flex-col items-start justify-center h-full py-6 mb-6 md:mb-0 md:w-1/2">
               <div className="flex flex-col items-start justify-center h-full space-y-3 transform md:pl-10 lg:pl-16 md:space-y-5">
                 <div className="bg-primary flex items-center pl-2 pr-3 py-1.5 leading-none rounded-full text-xs font-medium uppercase text-white inline-block">
                   <svg
@@ -59,6 +60,7 @@ function Organisasi() {
           <div className="flex grid grid-cols-12 pb-10 sm:px-5 gap-x-8 gap-y-16">
             <div
               className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4"
+              data-aos="fade-up"
             >
               <a href="#_" className="block text-center w-full">
                 <img
@@ -81,6 +83,7 @@ function Organisasi() {
             </div>
             <div
               className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4"
+              data-aos="fade-up"
             >
               <a href="#_" className="block text-center w-full">
                 <img
@@ -103,6 +106,7 @@ function Organisasi() {
             </div>
             <div
               className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4"
+              data-aos="fade-up"
             >
               <a href="#_" className="block text-center w-full">
                 <img
