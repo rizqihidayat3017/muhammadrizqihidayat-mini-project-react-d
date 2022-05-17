@@ -1,6 +1,6 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
-// import Footer from "./components/Footer";
+import Footers from "./components/Footers";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Organisasi from "./components/Organisasi";
 import Project from "./components/Project";
@@ -23,7 +23,7 @@ function App() {
           <Route path="*" element={<Pagenotfound />} />
         </Routes>
       </BrowserRouter>
-      {/* <Footer /> */}
+      <Footers />
     </div>
   );
 }
