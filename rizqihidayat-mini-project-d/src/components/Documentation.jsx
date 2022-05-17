@@ -11,7 +11,7 @@ function Documentation() {
     <div>
       <section
         className="text-gray-400 bg-three body-font mt-20"
-        data-aos="zoom-in-up"
+        data-aos="fade-up"
       >
         <div className="container px-5 py-24 mx-auto flex flex-wrap">
           <div className="flex w-full mb-20 flex-wrap">

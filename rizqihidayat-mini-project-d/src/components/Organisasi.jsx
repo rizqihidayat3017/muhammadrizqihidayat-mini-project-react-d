@@ -60,7 +60,7 @@ function Organisasi() {
           <div className="flex grid grid-cols-12 pb-10 sm:px-5 gap-x-8 gap-y-16">
             <div
               className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4"
-              data-aos="zoom-in-up"
+              data-aos="fade-up"
             >
               <a href="#_" className="block text-center w-full">
                 <img
@@ -83,7 +83,7 @@ function Organisasi() {
             </div>
             <div
               className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4"
-              data-aos="zoom-in-up"
+              data-aos="fade-up"
             >
               <a href="#_" className="block text-center w-full">
                 <img
@@ -106,7 +106,7 @@ function Organisasi() {
             </div>
             <div
               className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4"
-              data-aos="zoom-in-up"
+              data-aos="fade-up"
             >
               <a href="#_" className="block text-center w-full">
                 <img

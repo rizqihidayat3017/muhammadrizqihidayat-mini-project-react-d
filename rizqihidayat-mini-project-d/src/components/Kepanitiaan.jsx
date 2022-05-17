@@ -40,7 +40,7 @@ function Kepanitiaan() {
             </div>
             <div
               className="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl"
-              data-aos="zoom-in-up"
+              data-aos="fade-up"
             >
               <div className="p-3 text-white bg-primary rounded-full">
                 <img className="h-8 w-8" src="/image/bitif.png" alt="" />
@@ -58,7 +58,7 @@ function Kepanitiaan() {
             </div>
             <div
               className="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl"
-              data-aos="zoom-in-up"
+              data-aos="fade-up"
             >
               <div className="p-3 text-white bg-primary rounded-full">
                 <img className="h-8 w-8" src="/image/Icom.png" alt="" />
@@ -76,7 +76,7 @@ function Kepanitiaan() {
             </div>
             <div
               className="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl"
-              data-aos="zoom-in-up"
+              data-aos="fade-up"
             >
               <div className="p-3 text-white bg-primary rounded-full">
                 <img className="h-8 w-8" src="/image/IO.png" alt="" />
@@ -92,7 +92,7 @@ function Kepanitiaan() {
             </div>
             <div
               className="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl"
-              data-aos="zoom-in-up"
+              data-aos="fade-up"
             >
               <div className="p-3 text-white bg-primary rounded-full">
                 <img className="h-8 w-8" src="/image/IT4.png" alt="" />
@@ -111,7 +111,7 @@ function Kepanitiaan() {
             </div>
             <div
               className="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl"
-              data-aos="zoom-in-up"
+              data-aos="fade-up"
             >
               <div className="p-3 text-white bg-primary rounded-full">
                 <img className="h-8 w-8" src="/image/HMIFLOGO.png" alt="" />
@@ -130,7 +130,7 @@ function Kepanitiaan() {
             </div>
             <div
               className="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl"
-              data-aos="zoom-in-up"
+              data-aos="fade-up"
             >
               <div className="p-3 text-white bg-primary rounded-full">
                 <img className="h-8 w-8" src="/image/HMIFLOGO.png" alt="" />
@@ -148,7 +148,7 @@ function Kepanitiaan() {
             </div>
             <div
               className="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl"
-              data-aos="zoom-in-up"
+              data-aos="fade-up"
             >
               <div className="p-3 text-white bg-primary rounded-full">
                 <img className="h-8 w-8" src="/image/HMIFLOGO.png" alt="" />
