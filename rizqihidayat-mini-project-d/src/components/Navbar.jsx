@@ -17,25 +17,25 @@ function Navbar() {
             <nav className="flex flex-wrap items-center mb-5 text-base md:mb-0 md:pl-8 md:ml-8 md:border-l md:border-gray-200">
               <a
                 href="/beranda"
-                className="mr-5 font-medium leading-6 text-white hover:text-indigo-700"
+                className="mr-2 font-medium leading-6 text-white hover:text-indigo-700"
               >
                 Beranda
               </a>
               <a
                 href="/organisasi"
-                className="mr-5 font-medium leading-6 text-white hover:text-indigo-700"
+                className="mr-2 font-medium leading-6 text-white hover:text-indigo-700"
               >
                 Organisasi
               </a>
               <a
                 href="/project"
-                className="mr-5 font-medium leading-6 text-white hover:text-indigo-700"
+                className="mr-2 font-medium leading-6 text-white hover:text-indigo-700"
               >
                 Portofolio
               </a>
               <a
                 href="/kepanitiaan"
-                className="mr-5 font-medium leading-6 text-white hover:text-indigo-700"
+                className="mr-2 font-medium leading-6 text-white hover:text-indigo-700"
               >
                 Kepanitiaan
               </a>

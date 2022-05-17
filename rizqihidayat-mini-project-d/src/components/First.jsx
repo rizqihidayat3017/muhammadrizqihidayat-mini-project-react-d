@@ -12,7 +12,7 @@ function First() {
       <section className="w-full px-8 text-gray-700 bg-white">
         <div className="container flex flex-col flex-wrap items-center justify-between mx-auto md:flex-row max-w-7xl"></div>
       </section>
-      <section className="px-2 py-20 bg-white md:px-0" data-aos="zoom-in">
+      <section className="px-2 py-20 bg-white md:px-0" data-aos="fade-up">
         <div className="container items-center max-w-6xl px-8 mx-auto xl:px-5">
           <div className="flex flex-wrap items-center sm:-mx-3">
             <div className="w-full md:w-1/2 md:px-3">
