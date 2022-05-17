@@ -1,14 +1,14 @@
 import React from "react";
 
-const Footer1 = () => {
+const Footer = () => {
   return (
     <div>
       <footer className="text-gray-400 bg-primary body-font">
         <div className="container px-5 py-5 mx-auto flex items-center sm:flex-row flex-col">
-          <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
+          <span className="flex title-font font-medium items-center md:justify-start justify-center text-white">
             <img className="h-8 w-18" src="/image/MRH.png" alt="" />
             <span className="ml-3 text-xl">MRH</span>
-          </a>
+          </span>
           <p className="text-sm text-white sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-white sm:py-2 sm:mt-0 mt-4">
             © 2022 Muhammad Rizqi Hidayat —
             <a
@@ -90,4 +90,4 @@ const Footer1 = () => {
   );
 };
 
-export default Footer1;
+export default Footer;
